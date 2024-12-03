@@ -56,8 +56,11 @@ class _HomeScreenState extends State<HomeScreen> {
                             mainAxisAlignment: MainAxisAlignment.start,
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
-                              Text('Title\n' + postList[index].title.toString()),
-                              Text('Description\n'+postList[index].body.toString()),
+                              Text('Title',style: Theme.of(context).textTheme.titleLarge,),
+                              Text(postList[index].title.toString()),
+                              SizedBox(height: 10,),
+                              Text('Description',style: Theme.of(context).textTheme.titleLarge,),
+                              Text(postList[index].body.toString()),
                             ],
                           ),
                         ),
