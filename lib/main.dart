@@ -1,3 +1,4 @@
+import 'package:apitutatorial/photos_Screen.dart';
 import 'package:flutter/material.dart';
 
 import 'home_screen.dart';
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
         useMaterial3: true,
       ),
-      home: const HomeScreen(),
+      home: const PhotosScreen(),
     );
   }
 }
