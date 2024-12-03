@@ -5,6 +5,7 @@ import 'package:apitutatorial/with_out_model.dart';
 import 'package:flutter/material.dart';
 
 import 'Post Apis/signup.dart';
+import 'Post Apis/upload_image.dart';
 import 'home_screen.dart';
 
 void main() {
@@ -22,7 +23,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
         useMaterial3: true,
       ),
-      home: const Signup(),
+      home: const UploadImage(),
     );
   }
 }
